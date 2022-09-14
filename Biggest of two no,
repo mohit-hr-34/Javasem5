@@ -1,0 +1,16 @@
+//Write a program to find the biggest of two no. 
+import java.util.*;
+class biggest
+{ public static void main(String args[])
+   {  int num1,num2;
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter first no.");
+      num1=sc.nextInt();
+      System.out.println("Enter Second no.");
+      num2=sc.nextInt();
+      if(num1>num2)
+         System.out.println(num1+"is Biggest of two numbers");
+      else
+         System.out.println(num2+"is Biggest of two numbers")
+   }
+}    
