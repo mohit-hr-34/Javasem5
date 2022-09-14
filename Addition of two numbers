@@ -1,0 +1,10 @@
+//Write a program to find the addition of two no
+Class addi
+{ public static void main(String args[])
+  { int num1,num2,sum;
+     num1=10;
+     num2=20;
+    sum=num1+num2;
+    System.out.println("Sum is:"+sum);
+   }
+ }  
