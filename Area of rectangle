@@ -1,0 +1,11 @@
+import java.util.*;
+class area
+{ public static void main(String args[])
+  { int len,b,ar;
+     Scanner sc=new Scanner(System.in);
+     len=sc.nextInt();
+     b=sc.nextInt();
+     ar=len*b;
+     System.out.println("Area is:"+ar);
+   }
+}   
