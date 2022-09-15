@@ -1,0 +1,27 @@
+//Write a java program to print the grade of a student 
+import java.util.*;
+class grades
+{ public static void main(String args[])
+  { int avg;String grade;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter your average");
+      avg=sc.nextInt();
+    if(avg>=90)
+       grade="O";
+    else if(avg>=75 && avg<90)
+       grade="A+";
+    else if(avg>=60 && avg<75)
+       grade="A";
+    else if(avg>=55 && avg<60)
+       grade="B+";
+    else if(avg>=50 && avg<55)
+       grade="B";
+    else if(avg>=45 && avg<50)
+       grade="C";
+    else if(avg>=40 && avg<45)
+       grade="D";
+    else
+       grade="F";
+    System.out.println("Your grade is:"+grade);
+  }
+}  
