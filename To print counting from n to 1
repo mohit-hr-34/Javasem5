@@ -1,0 +1,15 @@
+//Write a java program to print numbers from n to one
+import java.util.*;
+class count
+{ public static void main(String args[])
+  { int num;
+     Scanner sc=new Scanner(System.in);
+     System.out.println("Enter the number");
+      num=sc.nextInt();
+       int i=num;
+       while(i>0)
+       { System.out.println(i);
+             i=i-1;
+         }
+    }
+}
