@@ -1,0 +1,17 @@
+//Write a java program to print fibononacci series 
+import java.util.*;
+class fib
+{ public static void main(String args[])
+  { int a=0,b=1,s=0,i=0,num;
+     Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the value up to where want to print");
+     num=sc.nextInt();
+     while(i<=num)
+    { s=a+b;
+       System.out.println("Fibnonacci Series is:"+s);
+       a=b;
+       b=s;
+       i++;
+     }
+   }
+}
