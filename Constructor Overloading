@@ -1,0 +1,25 @@
+//Write a java program to illustrate constructor overloading 
+class Demo
+{ int ID ,marks;
+  String name;
+   void display()
+   { System.out.println("ID="+ID);
+     System.out.println("Student Name="+name);
+     System.out.println("Marks="+marks);
+    }
+   Demo(int i, String s, int M)
+     { ID=i;
+       name=s;
+       marks=M;
+      }
+   Demo()
+   { System.out.println("Defualt is Invoked");
+     }
+    public static void main(String args[])
+     { Demo d1=new Demo(111,"Sri",0);
+            d1.display();
+        Demo d2=new Demo();
+        Demo d3=new Demo(222,"Mohit",100);
+                 d3.display();
+       }
+}
