@@ -1,0 +1,20 @@
+// Write a java program to illustrate method overloading
+class addi
+{ int n1,n2,n3;
+  void add(int x, int y)
+  { n1=x;
+    n2=y;
+    System.out.println("Sum is:"+(n1+n2));
+   }
+   void add(int x, int y, int z)
+   { n1=x;
+     n2=y;
+     n3=z;
+    System.out.println("Sum ="+(n1+n2+n3));
+   }
+   public static void main(String args[])
+   { addi a1=new addi();
+      a1.add(10,20,35);
+      a1.add(22,29);
+    }
+}    
