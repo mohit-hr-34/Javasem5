@@ -1,0 +1,27 @@
+// Write a java program to print Student roll no. , name and marks.
+import java.util.*;
+class printo
+{ int rollno;
+   String S_name;
+   float marks;
+   void read()
+   {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter your Roll Number");
+      rollno=sc.nextInt();
+      System.out.println("Enter your name ");
+      S_name=sc.nextLine();
+      System.out.println("Enter your marks");
+      marks=sc.nextFloat();
+     }
+     void display()
+     { System.out.println("Roll Number:"+rollno);
+       System.out.println("Student Name:"+S_name);
+       System.out.println("Marks:"+marks);
+      }
+      public static void main(String args[])
+      { printo p1=new printo();
+         p1.read();
+         p1.display();
+       }
+}       
