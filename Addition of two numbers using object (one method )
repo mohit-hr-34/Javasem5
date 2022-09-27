@@ -1,0 +1,17 @@
+//Write a java program to find the addition of two numbers 
+import java.util.*;
+class ADD
+{ void sum()
+   { int a, b,c;
+     Scanner sc=new Scanner(System.in);
+     System.out.println("Enter two numbers to add");
+     a=sc.nextInt();
+     b=sc.nextInt();
+     c=a+b;
+     System.out.println("The Addition is: "+c);
+   }
+   public static void main(String args[])
+   { ADD a1=new ADD();
+      a1.sum();
+    }
+}    
