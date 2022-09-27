@@ -1,0 +1,22 @@
+//Write a java program to find bigest of two numbers using object of the class
+import java.util.*;
+class big
+{ int n1,n2;
+  void read()
+  { Scanner sc=new Scanner(System.in);
+    System.out.println("Enter two numbers");
+    n1=sc.nextInt();
+    n2=sc.nextInt();
+   }
+   void large()
+   { if(n1>n2)
+        System.out.println(n1+"is Biggest of two numbers");
+     else
+        System.out.println(n2+"is Biggest of two numbers");
+    }
+    public static void main(String args[])
+    { big b1=new big();
+         b1.read();
+         b1.large();
+     }
+}     
