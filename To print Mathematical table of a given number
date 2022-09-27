@@ -1,0 +1,15 @@
+//Write a java program to print the mathematical table of a given number
+import java.util.*;
+class print
+{ public static void main(String args[])
+  { int num, i=1,res;
+     Scanner sc=new Scanner(System.in);
+     System.out.println("Enter the number ");
+      num=sc.nextInt();
+      for(i=1;i<=10;i++)
+      { res=num*i;
+        System.out.println("Table is:");
+        System.out.println(num+"*"+i+"="+res);
+      }
+    }
+}    
