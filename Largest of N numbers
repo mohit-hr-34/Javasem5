@@ -1,0 +1,18 @@
+//Write a java program to find largest of N natural numbers
+import java.util.*;
+class largest
+{ public static void main(String args[])
+  { Scanner sc=new Scanner(System.in);
+    System.out.println("Please enter how many numbers you want to compare");
+    int n=sc.nextInt();
+    int large=0;
+    System.out.println("Please enter "+n+"numbers");
+    for(int i=1;i<=n;i++)
+    { int current=sc.nextInt();
+      if(current>large)
+       { large=current;
+         }
+     }
+     System.out.println("Largest of "+n+"numbers is: "+large);
+   }
+}   
