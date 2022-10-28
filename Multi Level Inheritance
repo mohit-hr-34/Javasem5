@@ -1,0 +1,23 @@
+class vehicle
+{ void display()
+  { System.out.println("Vehicle is Running");
+  }
+ }
+ class bike extends vehicle
+ { void print()
+   { System.out.println("Bike is Running");
+    }
+  }
+class truck extends bike
+{ void show()
+  { System.out.println("Truck is Running");
+  }
+ }
+ class demo3
+ { public static void main(String args[])
+   { truck t1=new truck();
+     t1.show();
+     t1.print();
+     t1.display();
+   }
+}   
