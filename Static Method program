@@ -1,0 +1,13 @@
+class counter
+{ int count=0;
+  void display()
+  { System.out.println("Normal Method");
+    }
+  static void print()
+  { System.out.println("Static Method");
+    }
+  public static void main(String args[])
+  { counter.print();
+  }
+}
+OUTPUT:-Static Method
