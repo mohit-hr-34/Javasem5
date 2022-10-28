@@ -1,0 +1,12 @@
+class counter 
+{ static int count=0;// if we don't use static here then every time a constructor executed it will give same value as 1 
+  counter()
+  { count++;
+    System.out.println(count);
+  }
+  public static void main(String args[])
+  { counter c1=new counter();
+    counter c2=new counter();
+    counter c3=new counter();
+   }
+}   
