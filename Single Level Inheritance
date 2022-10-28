@@ -1,0 +1,16 @@
+class A
+{ void display()
+  { System.out.println("From Haryana");
+     }
+}
+class B extends A
+{ void print()
+  { System.out.println("From Hyderabad");
+  }
+}
+class demo1
+{ public static void main(String args[])
+  { B b1=new B();
+      b1.display();
+   }
+}   
