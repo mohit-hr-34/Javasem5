@@ -1,0 +1,17 @@
+class A
+{ void display()
+  { System.out.println("Vehicle is running");
+   }
+}
+class B extends A
+{ void display()
+  { System.out.println("Truck is Running");
+    }
+}
+class demo6
+{ public static void main(String args[])
+  { B b1=new B();
+      b1.display();
+   }
+}
+OUTPUT:- Truck is Running
