@@ -10,3 +10,5 @@ Class A
      }
 }
 OUTPUT:- It will raise an error becoause of speedlimit different values
+Note:-1) If we use final keyword with methods, the methods can not be overridden its derived class.
+      2) A class with final keyword can not be inherited further.
