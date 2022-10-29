@@ -1,0 +1,12 @@
+Class A
+{ final int speedlimit=60;
+   void display()
+   { speedlimit=100;
+     System.out.println(speedlimit);
+   }
+   public static void main(String args[])
+    { A a1=new A();
+      a1.display();
+     }
+}
+OUTPUT:- It will raise an error becoause of speedlimit different values
