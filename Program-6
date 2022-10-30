@@ -10,11 +10,11 @@ class p6
     { rem=num%10;
       sum=sum+rem;
       prod=prod*rem;
-      rev=rev*10+rem
+      rev=rev*10+rem;
       num=num/10;
     }
-    System.out.println("Sum of digits :"+sum);
-    System.out.println("Product of digits :"+prod);
-    System.out.println("Reverse :"+rev);
+    System.out.println("Sum of digits: "+sum);
+    System.out.println("Product of digits: "+prod);
+    System.out.println("Reverse: "+rev);
   }
 }  
