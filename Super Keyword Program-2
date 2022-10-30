@@ -1,0 +1,20 @@
+class A
+{ A()
+  { System.out.println("Constructor from Class A");
+  }
+  void show()
+  { System.out.println("Method from Class A");
+  }
+}
+class B extends A
+{ void display()
+  { super();//Invoke PC contructor
+    super.show();//Invoke PC method
+   }
+}
+class demo8
+{ public static void main(String args[])
+  { B b1=new B();
+      b1.display();
+  }
+}  
