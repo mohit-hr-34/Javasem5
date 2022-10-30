@@ -1,0 +1,35 @@
+import java.util.*;
+class p3
+{ public static void main(String args[])
+  { Scanner sc=new Scanner(System.in);
+    System.out.println("1.Fibonacci Series");
+    System.out.println("2.Factorail of a number");
+    int ch=sc.nextInt();
+    switch(ch)
+   { case 1:
+           System.out.println("Enter any number");
+           int n=sc.nextInt();
+           int a=0,b=1;
+           System.out.println(a+" "+b);
+           for(int i=3;i<=n;i++)
+           { int term= a+b;
+             System.out.println(" "+term);
+             a=b;
+             b=term;
+            }
+           break;
+     case 2:
+           System.out.println("Enter number: ");
+           int num=sc.nextInt();
+           int f=1;
+           for(int i=1;i<=num;i++)
+           { f=f*i;
+            }
+           System.out.println("Factorial "+num+"="+f);
+           break;
+     default:
+            System.out.println("Incorrect choice");
+           break;
+    }
+   }
+}
