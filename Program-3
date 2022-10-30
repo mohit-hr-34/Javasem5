@@ -1,3 +1,6 @@
+//Write a menu driven program for following
+//a) Display a Fibonacci series
+//b) Compute Factorial of a number
 import java.util.*;
 class p3
 { public static void main(String args[])
