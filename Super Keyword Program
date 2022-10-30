@@ -1,0 +1,16 @@
+class A
+{ String color="Blue";
+ }
+class B extends A
+{ String color="Green";
+  void display()
+  { System.out.println(color);
+    System.out.println(super.color);
+   }
+ }
+ class demo7
+ { public static void main(String args[])
+   { B b1=new B();
+       b1.display();
+    }
+ }   
