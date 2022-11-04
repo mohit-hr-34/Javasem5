@@ -2,7 +2,7 @@ interface I1
 { void display()
 }
 class A implements I1
-{ void display()
+{ public void display()
   { 
     System.out.println("Welcome");
    }
